@@ -40,8 +40,8 @@ GitHub Branch Explorer is a web application that allows users to authenticate wi
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-username/github-branch-explorer.git
-cd github-branch-explorer
+git clone https://github.com/srikanthbanothu26/github-branch.git
+cd github-branch
 ```
 
 ### **2️⃣ Backend Setup**
@@ -76,9 +76,9 @@ Visit: [http://localhost:5173](http://localhost:5173) in your browser.
 
 ![img_3.png](img_3.png)-github Oauth Application
 
-![img.png](img.png)
+![img.png](img.png)-Frontend View for login user through github
 
-![img_2.png](img_2.png)
+![img_2.png](img_2.png)-Frontend view for logout and dispay Reprositories,branches,pull request,issues
 
 ## 🔥 Future Improvements
 - Add icons to improve UI
