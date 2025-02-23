@@ -75,7 +75,8 @@ Visit: [http://localhost:5173](http://localhost:5173) in your browser.
 ## 📸 Screenshots 
 
 -github Oauth Application
-![img_3.png](img_3.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 
 -Frontend View for login user through github
 ![img.png](img.png)
