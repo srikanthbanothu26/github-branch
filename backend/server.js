@@ -8,7 +8,7 @@ const GitHubStrategy = require("passport-github2").Strategy;
 const app = express();
 const PORT = 5000;
 
-// Middleware
+
 app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(express.json());
 
@@ -16,8 +16,8 @@ app.use(
     session({
       secret: process.env.SESSION_SECRET,
       resave: false,
-      saveUninitialized: false,  // ❌ Should NOT be true (prevents empty sessions)
-      cookie: { secure: false }, // ✅ Keep false for local development
+      saveUninitialized: false,
+      cookie: { secure: false },
     })
   );
   
@@ -33,9 +33,9 @@ passport.use(
         callbackURL: process.env.CALLBACK_URL,
       },
       (accessToken, refreshToken, profile, done) => {
-        console.log("GitHub OAuth Success - Token:", accessToken); // Debugging
+        console.log("GitHub OAuth Success - Token:", accessToken);
         profile.accessToken = accessToken;
-        profile.username = profile._json.login; // ✅ Fix: Extract username correctly
+        profile.username = profile._json.login;
         console.log("GitHub User Profile:", profile); // Debugging
 
         return done(null, profile);
@@ -46,7 +46,7 @@ passport.use(
   
 
   passport.serializeUser((user, done) => {
-    done(null, { id: user.id, username: user.username, accessToken: user.accessToken }); // ✅ Store username
+    done(null, { id: user.id, username: user.username, accessToken: user.accessToken }); // Store username
   });
   
   passport.deserializeUser((user, done) => {

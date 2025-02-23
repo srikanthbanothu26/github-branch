@@ -74,11 +74,15 @@ Visit: [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 📸 Screenshots 
 
-![img_3.png](img_3.png)-github Oauth Application
+-github Oauth Application
+![img_3.png](img_3.png)
 
-![img.png](img.png)-Frontend View for login user through github
+-Frontend View for login user through github
+![img.png](img.png)
 
-![img_2.png](img_2.png)-Frontend view for logout and dispay Reprositories,branches,pull request,issues
+-Frontend view for logout and dispay Reprositories,branches,pull request,issues
+![img_5.png](img_5.png)
+![img_6.png](img_6.png)
 
 ## 🔥 Future Improvements
 - Add icons to improve UI
