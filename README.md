@@ -78,8 +78,11 @@ Visit: [http://localhost:5173](http://localhost:5173) in your browser.
 **GO TO GITHUB/ SETTINGS / DEVELOPER SETTINGS/ OAUTH APPS** 
 
 ![img_1.png](static/src/img/img_1.png)
+
 **CREATE OAUTH APPLICATION**
+
 ![img_2.png](static/src/img/img_2.png)
+
 **Frontend View for user LOGIN through github**
 ![img.png](static/src/img/img.png)
 
