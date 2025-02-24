@@ -75,18 +75,18 @@ Visit: [http://localhost:5173](http://localhost:5173) in your browser.
 ## 📸 Screenshots 
 
 ### github Oauth Application
-**GO TO GITHUB/ SETTINGS / DEVELOPER SETTINGS/ OAUTH APPS** 
+**1.GO TO GITHUB/ SETTINGS / DEVELOPER SETTINGS/ OAUTH APPS** 
 
 ![img_1.png](static/src/img/img_1.png)
 
-**CREATE OAUTH APPLICATION**
+**2.CREATE OAUTH APPLICATION**
 
 ![img_2.png](static/src/img/img_2.png)
 
-**Frontend View for user LOGIN through github**
+**3.Frontend View for user LOGIN through github**
 ![img.png](static/src/img/img.png)
 
-**Frontend view for logout and dispay Reprositories,branches,pull request,branch issues.**
+**4.Frontend view for logout and dispay Reprositories,branches,pull request,branch issues.**
 ![img_5.png](static/src/img/img_5.png)
 ![img_6.png](static/src/img/img_6.png)
 
