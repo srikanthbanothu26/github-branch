@@ -74,22 +74,21 @@ Visit: [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 📸 Screenshots 
 
--github Oauth Application
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+### github Oauth Application
+**GO TO GITHUB/ SETTINGS / DEVELOPER SETTINGS/ OAUTH APPS** 
 
--Frontend View for login user through github
-![img.png](img.png)
+![img_1.png](static/src/img/img_1.png)
+**CREATE OAUTH APPLICATION**
+![img_2.png](static/src/img/img_2.png)
+**Frontend View for user LOGIN through github**
+![img.png](static/src/img/img.png)
 
--Frontend view for logout and dispay Reprositories,branches,pull request,issues
-![img_5.png](img_5.png)
-![img_6.png](img_6.png)
+**Frontend view for logout and dispay Reprositories,branches,pull request,branch issues.**
+![img_5.png](static/src/img/img_5.png)
+![img_6.png](static/src/img/img_6.png)
 
-## 🔥 Future Improvements
-- Add icons to improve UI
-- Enhance UI with animations
-- Improve error handling and notifications
 
-## 📜 License
+
+##  License
 This project is open-source and available for anyone to use.
 
