@@ -48,7 +48,7 @@ const App = () => {
 
         {user ? (
           <div>
-            <p style={{ fontSize: "18px", marginBottom: "20px" }}>Welcome, <strong>{"User"}</strong>!</p>
+            <p style={{ fontSize: "18px", marginBottom: "20px" }}>Welcome, <strong>{user.username}</strong>!</p>
             {selectedRepo && (
               <div style={{ textAlign: "left", maxWidth: "900px", margin: "auto", background: "#1e1e1e", padding: "20px", borderRadius: "8px" }}>
                 <h2 style={{ color: "#f1c40f" }}>Branches for {selectedRepo}:</h2>
