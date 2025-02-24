@@ -83,7 +83,7 @@ Visit: [http://localhost:5173](http://localhost:5173) in your browser.
 
 ![img_2.png](static/src/img/img_2.png)
 
-**3.Frontend View for user LOGIN through github**
+**3.Frontend View for user LOGIN through GitHub**
 ![img.png](static/src/img/img.png)
 
 **4.Frontend view for logout and dispay Reprositories,branches,pull request,branch issues.**
